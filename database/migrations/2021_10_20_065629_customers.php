@@ -19,13 +19,12 @@ class Customers extends Migration
             $table->string('email');
             $table->string('username');
             $table->string('password');
-           
+         
             $table->string('dob');
 
             $table->string('phone');
             $table->timestamps();
 
-          
         });
     }
 

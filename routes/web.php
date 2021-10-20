@@ -14,3 +14,4 @@ Route::get('/signup',[RegistrationController::class,'registration'])->name('sign
 Route::post('/signup',[RegistrationController::class,'validateRegistration'])->name('signup');
 Route::get('/login',[LoginController::class,'login'])->name('login');
 Route::post('/login',[LoginController::class,'loginCheck'])->name('login');
+Route::post('/contact',[ContactController::class,'validateContact'])->name('contact');

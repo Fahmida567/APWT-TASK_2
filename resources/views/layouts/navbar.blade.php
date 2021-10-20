@@ -4,6 +4,7 @@
         <div class="navbar-nav ms-auto">
             <a class="fw-bold nav-link mx-2 text-white" href="{{ route ('login') }}">Login</a>
             <a class="fw-bold nav-link mx-2 text-white" href="{{ route ('signup') }}">Signup</a>
+            <a class="fw-bold nav-link mx-2 text-white" href="{{route('contact')}}"> Contact </a>
         </div>
     </div>
 </nav>
